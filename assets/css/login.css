@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600i,700,700i,800,800i,900,900i');
+/* ----------------- login page ----------------------- */	
+/*.mz-left-sidebar, .mz-right-sidebar .app-content {*/
+body {
+	font-family: 'Montserrat';
+}
+a {
+text-decoration: none !important;
+}
+
+.logo-content h5 {
+font-size: 10px;
+font-weight: bold;
+margin-top:5px;
+}
+.logo-content .package {
+font-size: 11px;
+margin-bottom: 5px;
+}
+.app-div {
+margin:20px 7px;
+}
+.app-div > img {
+float: left;
+margin-right: 20px;
+}
+.signup-box {
+padding-left: 20px;
+}
+.signup-box .email-text::placeholder {
+color: #bdcdde;
+}
+.email-submit {
+	border-radius: 20px;
+	height: 42px;
+	width: 170px;
+	border: 1px solid #fff;
+	color: #0c4d99;
+	background: #e6f1ff;
+	margin: 10px auto;
+}
+
+.login-left {
+	height: 100%; /*100vh;*/	
+	min-height: 100vh;	
+	padding-top: 2%;
+	color: #fff;		
+	background: rgb(27,33,111); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(27,33,111,1) 0%, rgba(1,109,184,1) 58%, rgba(1,90,163,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(27,33,111,1) 0%,rgba(1,109,184,1) 58%,rgba(1,90,163,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(27,33,111,1) 0%,rgba(1,109,184,1) 58%,rgba(1,90,163,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b216f', endColorstr='#015aa3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.login-right {
+	background-color: #fff;
+	/*height: 100vh;*/
+	height: 100%;
+	overflow-x: hidden;
+}
+.logo-size {
+	width: 70px;
+	height: 65px;
+	border-radius: 6px;
+}
+.app-content {
+	font-size: 16px;
+	margin-top:20px;
+	font-weight: bold;
+}
+.logo-content {			
+	margin:14px 0 25px 0;
+}
+.logo-content h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.logo-content .desc {
+	font-size: 12px;
+	line-height: 15px;
+	margin: 0;
+	width: 155px; /*189px;*/
+}
+.logo-img {
+	height: 64px;
+	width: 416px;
+	/*margin-left:10px;*/
+	margin-top: 30px;
+}
+.app-div > span {
+	float: left;
+	margin-right: 20px;
+	font-size: 30px;
+	line-height: 65px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.signup-box .signup-title {
+	font-size: 20px;
+	font-weight: bold;
+    margin: 27px 10px 0;
+}
+.signup-box .email-text {
+	border-radius: 20px;
+	height: 42px; /*40px;*/
+	width: 70%;
+	background: transparent;
+	/*margin: 15px 0 15px -10px;*/
+	margin: 15px auto;
+	border: 1px solid #8dacce;
+	color: #bdcdde;
+	padding: 0 20px;
+	outline: 0;
+	font-size: 18px;
+}
+.signup-box .email-text::placeholder {
+	color: #bdcdde;
+}
+.signup-box p {
+	color: #bdcdde;
+	line-height: 22px;
+	font-size: 12px;
+	margin: 10px;
+}
+
+/*** custom css ***/
+.container.mz-full-width {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    display: -webkit-flex; 
+    display: flex; 
+}
+.mz-app-text { 
+	color: #00d5e0; 
+}
+.mz-left-sidebar {
+    padding-left: 0; 
+}
+.mz-right-sidebar {
+    padding: 0; 
+}
+.app-content {
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mz-app-link, .mz-app-detail {
+    display: inline-block;
+    vertical-align: top;
+}
+.mz-app-detail {
+    margin: auto 10px;
+    color: #535252;
+    width: 70%;
+}
+.mz-app-logo {
+    width: 400px;
+    margin: auto 10px;
+}
+.mz-app-logo .logo-img {
+    width: 100%;
+    height: auto;
+}
+.main-app-logo {
+    width: 80px;
+    display: inline-block;
+    float: left;
+	margin-right: 10px;
+}
+.main-app-logo img {
+    width: 100%;
+    height: auto;
+}
+.mzapp-icon {
+    width: 50px;
+}
+.mz-app-link .logo-size {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px #ccc;
+}
+.logo-content .desc {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+    width: 160px;
+}
+.mz-app-detail a {
+	color: #000;	
+}
+.mz-right-sidebar .form-group {
+    margin-bottom: 22px;
+}
+@media (min-width: 992px) {
+	.mz-right-sidebar .col-sm-6 {
+		width: 100%;
+	}
+}
+@media (min-width: 320px) and (max-width: 530px) {
+    .mz-app-logo {
+        width: 100% !important;
+        margin: auto;
+    }
+}
+@media (min-width: 320px) and (max-width: 991px) {
+	.mz-left-sidebar {
+		padding: 0;
+	}
+    .app-div > span {
+    	float: none;
+	    margin-right: unset;
+	    line-height: unset;
+	    font-size: 25px; 
+	    display: inline-block;
+		margin-top: 20px;
+	}
+	.login-left {
+    	height: 100%;
+    	min-height: 100%; 
+    	padding-bottom: 20px;
+	}
+	.mz-right-sidebar {
+		margin: auto 25px;
+	}
+	.container.mz-full-width {
+		display: unset;
+	}
+}
+@media (min-width: 320px) and (max-width: 434px) {
+	.signup-box .email-text, .email-submit {
+		width: 100%;
+	}
+    .app-div > span {
+	    display: inline;
+	}
+	.signup-box {
+		padding-left: 2px;
+	}
+	.mz-right-sidebar {
+	    margin: auto 10px;
+	}
+}
+
+@media only screen and (min-device-width: 611px) and (max-device-width: 991px) {
+	.mz-right-sidebar .col-sm-6 {
+	    width: 50%;
+	    float: left;
+	}	
+}
+
+/* ----------------- login page ----------------------- */

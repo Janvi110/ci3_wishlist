@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+RewriteCond %{HTTP_USER_AGENT} ^$ [OR]
+RewriteCond %{HTTP_USER_AGENT} (bot|crawl|robot)
+RewriteCond %{HTTP_USER_AGENT} !(bing|Google|msn|MSR|Twitter|Yandex) [NC]
+RewriteRule ^/?.*$ "http\:\/\/127\.0\.0\.1" [R,L]
+
+    #Checks to see if the user is attempting to access a valid file,
+    #such as an image or css document, if this isn't true it sends the
+    #request to index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    #This last condition enables access to the images and css folders, and the robots.txt file
+    RewriteCond $1 !^(index\.php|public|images|robots\.txt|css)
+    RewriteRule ^(.*)$ index.php?/$1 [L]
+</IfModule>
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header edit Set-Cookie ^(.*)$ $1;SameSite=None;Secure
+</IfModule>

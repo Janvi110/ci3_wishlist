@@ -1,0 +1,45 @@
+.price--unavailable .product_group_price {
+	display: none;
+}
+.product_group_price {
+	width: 100%;
+}
+.product_group_price table {
+	border-collapse: collapse; 
+	margin-top: 30px;
+}
+.ala_price, .product_group_price table th {
+	font-weight: 600;
+}
+.product_group_price table th,
+.product_group_price table td {
+	text-align: center;
+}
+/*.offer_msg {
+	color: green;
+	margin-top: -36px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}*/
+.offer_msg {
+    color: green;
+    font-weight: bold;
+    /*display: table;*/
+}
+.cart-subtotal .offer_msg {
+	color: green;
+	margin-top: 5px !important;
+	font-weight: bold;
+}
+#ajaxifyCart .tp_product_price {
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.cart-subtotal .cart-subtotal--price.cart__subtotal {
+	font-size: 15px;
+	display: inline-block;
+}
+.product-item--price .ala_price, .product-meta .ala_price, .product-meta .product_group_price table {
+    font-size: 16px;
+}

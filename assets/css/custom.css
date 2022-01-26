@@ -1,0 +1,40 @@
+.page-header {margin: 0 0 10px;}
+.error{color:red;}
+#page-wrapper {
+  margin-top: 20px;
+}
+/* .panel-primary > .panel-heading {
+  background-color: #0098ca;
+  border-color: #0098ca;
+  color: #fff;
+}
+.panel-primary {
+  border-color: #0098ca;
+} */
+
+.close-msg {
+	float: right;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1;
+	color: #fff !important;
+	filter: alpha(opacity=20);
+	opacity: .5;
+}
+
+#wishlist_details .modal-dialog {
+	width: 70%;
+	max-width: 75%;
+}
+#wishlist_details .wish-list {
+	max-height: 450px;
+	overflow: auto;
+}
+.mswl-tblcustomers {
+	border-collapse:collapse; color:#555;
+	border: 1px solid #ccc;
+}
+.mswl-tblcustomers th, .mswl-tblcustomers td {
+	text-align: center;
+	border: 1px solid #ccc; 
+}

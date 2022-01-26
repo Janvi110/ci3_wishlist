@@ -1,0 +1,67 @@
+/*Grid Table */
+.price-level-input, .qty_input {
+  padding: 10px;
+    border: none;
+    text-align: center;
+    outline: none;
+    width: 82px;
+}
+.tr_disabled{
+	pointer-events: none;
+    background: #f6f6f6;
+}
+/*Grid Table */
+
+/* Bundle product checkbox */
+#product_popup .modal-body {
+  max-height: 500px;
+}
+#product_popup .chk_product_list {
+  max-height: 325px;
+  height: 325px;
+  overflow: auto;
+}
+#product_popup .product_rows {
+  padding: 10px 0;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+#product_popup .product_rows .chk_variant_list {
+  visibility: hidden;
+}
+#product_popup .product_rows label {
+  cursor: pointer;
+  width: 85%;
+  vertical-align: middle;
+}
+.product_thumb {
+    width: 45px;
+    display: inline-block;
+    border: 1px solid;
+    height: auto;
+}
+.product_thumb img, #product_popup .ala_wait img, #upload_csv .waiting img {
+    width: 100%;
+    height: auto;
+}
+#product_popup .product_rows .chk_variant_list:checked < .product_rows {
+  background: #31b0d5;
+  color: #fff;
+}
+#product_popup .ala_wait{
+  width: 150px;
+  margin: 100px auto; 
+}
+.product_rows.ala_checked {
+    background: #5291ef;
+    color: #fff;
+}
+#product_popup .product_thumb {
+    margin-left: 10px;
+}
+#upload_csv .waiting {
+    display: none;
+    margin: 5px;
+    width: 25px;
+}
+/* Bundle product checkbox */
